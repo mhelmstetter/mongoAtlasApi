@@ -1,0 +1,15 @@
+{
+  "name" : "ClusterTest1",
+  "diskSizeGB" : 32.0,
+  "numShards" : 1,
+  "providerSettings" : {
+    "providerName" : "AZURE",
+    "instanceSizeName" : "M30",
+    "diskTypeName": "P4",
+    "regionName" : "US_WEST"
+  },
+  "replicationFactor" : 3,
+  "backupEnabled" : false,
+  "encryptionAtRestProvider" : "NONE",
+  "autoScaling":{"diskGBEnabled":false}
+}
